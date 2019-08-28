@@ -1,0 +1,23 @@
+{
+  "name": "Tunes",
+  "version": "1.0.0",
+  "description": "A minimal music application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Noah Brier",
+  "devDependencies": {
+    "electron": "^6.0.5"
+  },
+  "build": {
+    "appId": "com.simple.app",
+    "mac": {
+      "category": "public.app-category.music"
+    }
+  },
+  "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  }
+}
