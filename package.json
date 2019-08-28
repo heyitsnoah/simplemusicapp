@@ -4,6 +4,8 @@
   "description": "A minimal music application",
   "main": "main.js",
   "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "start": "electron ."
   },
   "author": "Noah Brier",
@@ -15,9 +17,5 @@
     "mac": {
       "category": "public.app-category.music"
     }
-  },
-  "scripts": {
-    "pack": "electron-builder --dir",
-    "dist": "electron-builder"
   }
 }
