@@ -66,6 +66,9 @@ menu.append(new MenuItem({ label: 'YouTube', type: 'radio', checked: true, click
 menu.append(new MenuItem({ label: 'SoundCloud', type: 'radio', click: function() {
   mainWindow.loadURL('https://soundcloud.com')
 } }))
+menu.append(new MenuItem({ label: 'Bandcamp', type: 'radio', click: function() {
+  mainWindow.loadURL('https://bandcamp.com')
+} }))
 
 app.on('browser-window-created', (event, win) => {
   win.webContents.on('context-menu', (e, params) => {
