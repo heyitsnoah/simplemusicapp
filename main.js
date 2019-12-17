@@ -69,6 +69,9 @@ menu.append(new MenuItem({ label: 'SoundCloud', type: 'radio', click: function()
 menu.append(new MenuItem({ label: 'Bandcamp', type: 'radio', click: function() {
   mainWindow.loadURL('https://bandcamp.com')
 } }))
+menu.append(new MenuItem({ label: 'Google Play Music', type: 'radio', click: function() {
+  mainWindow.loadURL('https://play.google.com/music/listen?u=0#/home')
+} }))
 
 app.on('browser-window-created', (event, win) => {
   win.webContents.on('context-menu', (e, params) => {
