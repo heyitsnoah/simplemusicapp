@@ -6,5 +6,3 @@ To run/develop:
 1. `npm start`
 
 To build for Mac use **electron-build**: https://github.com/electron-userland/electron-builder
-
-1. `yarn dist`

@@ -1,6 +1,6 @@
 {
   "name": "Tunes",
-  "version": "3.1.0",
+  "version": "3.0.0",
   "description": "A minimal music application",
   "main": "main.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "author": "Noah Brier",
   "devDependencies": {
-    "electron": "^6.1.7",
+    "electron": "^6.0.5",
     "electron-builder": "^21.2.0"
   },
   "build": {
